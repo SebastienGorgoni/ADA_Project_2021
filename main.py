@@ -29,6 +29,7 @@ import os
 import seaborn as sns
 import matplotlib.pyplot as plt
 from textblob import TextBlob 
+import tensorflow as tf
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import re
 import warnings
@@ -36,6 +37,9 @@ import warnings
 warnings.filterwarnings("ignore")
 
 sns.set_theme(style="darkgrid")
+
+np.random.seed(42)
+tf.random.set_seed(42)
 
 # Set the Working Directory
 os.chdir("/Users/sebastiengorgoni/Documents/HEC Master/Semester 4.2/Advanced Data Analytics/ADA_Project")
