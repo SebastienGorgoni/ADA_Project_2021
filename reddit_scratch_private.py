@@ -20,11 +20,11 @@ import pandas as pd
 from tqdm import tqdm
 
 # Set the personal application
-reddit = praw.Reddit(client_id = 'ZRbALrv2p8Odig',
-                     client_secret = '3X9qHaxYQtHRO54E2O613bc3kdCm4g',
-                     username = 'ada_project_2021',
-                     password = 'adaproject2021',
-                     user_agent = 'adapraw')
+reddit = praw.Reddit(client_id = 'enter client id',
+                     client_secret = 'enter client secret',
+                     username = 'enter username',
+                     password = 'enter password',
+                     user_agent = 'enter any name')
 
 api = PushshiftAPI(reddit)
 
