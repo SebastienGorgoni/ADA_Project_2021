@@ -694,7 +694,7 @@ def lstm(dataframe, namefig):
     
     callback = tf.keras.callbacks.EarlyStopping(monitor='loss', patience=5)
     
-    history = lstm_model.fit(x=X_train, y=y_train, epochs=50, validation_split=0.1, callbacks=[callback])
+    history = lstm_model.fit(x=X_train, y=y_train, epochs=50, validation_split=0.2, callbacks=[callback])
     
     #Evaluate the model
     lstm_model.evaluate(X_test, y_test)
