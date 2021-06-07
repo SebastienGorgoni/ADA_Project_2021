@@ -54,5 +54,5 @@ To present our result, we will compare a hold-only position of the corresponding
 * Prof. [Simon Sheidegger](https://sites.google.com/site/simonscheidegger/home)
 * [Antoine Didisheim](https://www.antoinedidisheim.com)
 * Everyone who shared publicly their codes on Github :+1:
-* Every beloved [Reddit Mods](https://youtu.be/5DFCOh0mtYs) who moderate our selected subreddits :heart:
+* Every beloved [Reddit Mods](https://www.youtube.com/watch?v=5DFCOh0mtYs&t=91s) who moderate our selected subreddits :heart:
 
