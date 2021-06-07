@@ -11,12 +11,12 @@ Our project will evaluate if it is possible to predict the direction of asset’
 * Textblob: pip install -U textblob
 
 ## Data 
-We collected the top 25 commented posts under the aforementioned subreddits from January 2014 until May 2021 with the Reddit API using [praw](https://github.com/praw-dev/praw) and [psaw](https://github.com/dmarx/psaw) to collect the top posts each day. To install the libraries: 
+We collected the top 25 commented posts under the aforementioned subreddits from January 2014 until May 2021 with the Reddit API using the [praw](https://github.com/praw-dev/praw) and [psaw](https://github.com/dmarx/psaw) wrappers to collect the top posts each day. To install the libraries: 
 
 * Praw:  pip install praw
 * Psaw:  pip install psaw
 
-To use the Reddit API, we created a reddit "application" to obtain the credentials of collecting the posts:
+To use the Reddit API, we created a reddit "application" to obtain the credentials to access live reddit activities:
 
 * Create an account: https://www.reddit.com/wiki/api
 
