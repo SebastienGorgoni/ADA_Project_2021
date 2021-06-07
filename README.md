@@ -28,6 +28,8 @@ Using the non-official [Yahoo Finance API](https://github.com/ranaroussi/yfinanc
 * VIX Index (Ticker: ^VIX)
 * 10y T-Bills (Ticker: ^TNX)
 
+All data have been included in the repository.
+
 ## Model
 To predict the price movement (up:1 , down:0), we used the following classification algortithms:
 * K-Nearest Neighbours
@@ -42,7 +44,7 @@ To predict the price movement (up:1 , down:0), we used the following classificat
 For all our models, except the LSTM and DNN, we applied hyperparameters tuning using grid search and random search. The best model model was selected basey on its accuracy.
 
 ## Output
-To present our result, we will compare a hold-only position of the corresponding asset to a long/short position based on our predicitons (i.e. long if we predict a price increase, short if we except a price decrease).
+To present our result, we will compare a hold-only position of the corresponding asset to a long/short position based on our predicitons (i.e. long if we predict a price increase, short if we except a price decrease). All output have been included in the repository.
 
 ## Authors
 
