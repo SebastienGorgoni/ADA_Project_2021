@@ -50,6 +50,7 @@ def output(submissions):
     posts = []
     for post in tqdm(submissions):
         posts.append(post.title)
+        #print("* {}: [{}](<{}>)".format(post.score, post.title, post.url))
     return posts
 
 def download_reddit(index, nbtop, sub_reddit_theme, name):
