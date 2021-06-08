@@ -42,7 +42,7 @@ np.random.seed(42)
 tf.random.set_seed(42)
 
 # Set the Working Directory
-os.chdir("/Users/sebastiengorgoni/Documents/HEC Master/Semester 4.2/Advanced Data Analytics/ADA_Project")
+os.chdir("SET WORKING DIRECTORY")
 print("Current working directory: {0}".format(os.getcwd()))
 
 # Import the models and reddit download from prediction_models.py and reddit_scratch_private.py
@@ -70,8 +70,6 @@ df_investing = download_reddit(index, 25, 'investing', 'test_ada_reddit_investin
 
 ############## If CSV file already exist ##############
 
-os.chdir("/Users/sebastiengorgoni")
-
 df_worldnews = pd.read_csv('test_ada_reddit_worldnews.csv')
 df_worldnews.set_index('Date', inplace=True)
 df_worldnews.index =  pd.to_datetime(df_worldnews.index, format='%Y/%m/%d')
@@ -91,8 +89,6 @@ df_wsb.index =  pd.to_datetime(df_wsb.index, format='%Y-%m-%d')
 df_investing = pd.read_csv('test_ada_reddit_investing.csv')
 df_investing.set_index('Date', inplace=True)
 df_investing.index =  pd.to_datetime(df_investing.index, format='%Y-%m-%d')
-
-os.chdir("/Users/sebastiengorgoni/Documents/HEC Master/Semester 4.2/Advanced Data Analytics/ADA_Project")
 
 ###########
 
